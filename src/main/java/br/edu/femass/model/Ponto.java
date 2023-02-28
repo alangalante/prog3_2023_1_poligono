@@ -22,15 +22,6 @@ public class Ponto {
         return y;
     }
 
-    /*
-     *  1o q = x,y>0
-        2o q = x<0 e y>0
-        3o q = x,y<0
-        4o q = x>0 e y<0
-        Eixo de x = x<>0 e y = 0
-        Eixo de y = x = 0 e y<>0
-        Origem x,y=0
-     */
     public String getLocalizacao() {
         if (this.x>0.0 && this.y>0.0) return "1o Quadrante";
         if (this.x<0.0 && this.y>0.0) return "2o Quadrante";

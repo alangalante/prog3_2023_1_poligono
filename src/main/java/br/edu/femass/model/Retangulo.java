@@ -1,8 +1,6 @@
 package br.edu.femass.model;
 
-/*
- TODO fazer os mesmos testes de Quadrado
- */
+
 public class Retangulo extends Quadrado{
     private Reta altura;
 

@@ -22,10 +22,6 @@ public class Reta {
         return p2;
     }
 
-    /*
-     TODO: Testar usando o método construtor com ponto e
-     usando o método construtor com coordenadas
-     */
     public Double getTamanho() {
         return this.p1.getDistancia(this.p2);
     }
